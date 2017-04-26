@@ -1,0 +1,19 @@
+{
+  "name": "summarize",
+  "version": "1.0.0",
+  "private": false,
+  "dependencies": {
+    "ejs": "latest",
+    "path": "latest",
+    "express": "latest",
+    "body-parser": "latest",
+    "python-shell": "latest"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "author": "Adam Sebti",
+  "license": "ISC",
+  "description": "Web App that can summarize articles"
+}

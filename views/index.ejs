@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+  <title>
+    Recap
+  </title>
+    <link rel='shortcut icon' href='favicon.ico' />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+  <body> 
+    <div id="title-container">
+    <div id="title">
+      Recap
+    </div>
+      
+    </div>
+    <div id="sub-title">
+      A tool that simplifies articles by generating a summary and finding the top keywords
+    </div>
+    <div id="form-container">
+      <form action="/summary" method="post">
+      <div id="outer">
+          <textarea name="article" placeholder="Paste your article in this text box and press the submit button to generate a summary."></textarea>
+          <div id="select">
+            Select the number of sentences for the summary:
+          
+            <select name="select">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option selected="selected" value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+
+          </div>
+          <div id="button-container">
+            <button type="submit" value="submit" class="btn">
+              Submit
+            </button>
+          </div>
+        </div>     
+      </div>
+    </form>
+  </body>
+</html>
